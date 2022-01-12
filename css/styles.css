@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap');
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-1 {
+    background-image: url(./img/david-huck-UCEF8NOwS-E-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-2 {
+    background-image: url(./img/jana-sabeth-2jo9YbjHF1Y-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-3 {
+    background-image: url(./img/lawless-capture-STdt0puik_8-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-4 {
+    background-image: url(./img/andy-holmes-77XPXjnUyss-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-5 {
+    background-image: url(./img/mark-farias-VHwLipv3h1M-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-6 {
+    background-image: url(./img/roberto-nickson-po__GOp7ezQ-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-7 {
+    background-image: url(./img/otto-espinal-1wGBEK6xjDw-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.padding-s {
+    padding: 1%;
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-nav {
+    width: 25%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+
+/* Otras clases */
+
+header {
+    height: 100vh;
+    background-image: url(./img/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.back-white {
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    /*reglas*/
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    #caja-10 {
+        width: 100%;
+    }
+    .column-nav {
+        width: 100%;
+    }
+    .column-75 {
+        width: 100%;
+    }
+}
